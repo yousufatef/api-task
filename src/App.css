@@ -1,0 +1,32 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 20%;
+    margin-right: 5%;
+    padding: 20px;
+    border: 1px solid #eee;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.sidebar div{
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sidebar a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.main-content{
+    width: 75%;
+    margin-left: 25%;
+}

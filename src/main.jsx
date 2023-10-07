@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
-import { PdfViewer } from './pages/PdfViewer.jsx';
-import ExcelViewer from './pages/ExcelViewer.jsx';
-import PowerPointViewer from './pages/PowerPointViewer.jsx';
-
+import {PdfViewer}  from './pages/PdfViewer.jsx';
+import {ExcelViewer} from './pages/ExcelViewer.jsx';
+import {PowerPointViewer} from './pages/PowerPointViewer.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
